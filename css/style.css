@@ -2,23 +2,19 @@
 @import 'common.css';
 
 /* css variables */
-html {
-  --mainTextColor: snow;
-  --bgcColor: #333;
-}
 
 /* hero  */
 .hero {
   min-height: 300px;
-  background-color: var(--bgcColor);
+  background-color: #f4f4f4;
 }
 .hero h2 {
   text-transform: uppercase;
   font-weight: normal;
-  color: var(--mainTextColor);
+  color: dodgerblue;
 }
 .hero p {
-  color: var(--mainTextColor);
+  color: dodgerblue;
 }
 /* main */
 .main {
@@ -28,10 +24,10 @@ html {
 .main h2 {
   text-transform: uppercase;
   font-weight: normal;
-  color: var(--mainTextColor);
+  color: dodgerblue;
   font-size: 2rem;
 }
 .main p {
-  color: var(--mainTextColor);
+  color: dodgerblue;
   font-style: italic;
 }
