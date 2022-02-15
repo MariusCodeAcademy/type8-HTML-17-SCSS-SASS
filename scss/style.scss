@@ -1,0 +1,14 @@
+// variables
+$mainTextColor: tomato;
+$bgColor: #f4f4f4;
+
+.hero {
+  min-height: 300px;
+  background-color: $bgColor;
+  // nested css
+  h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: $mainTextColor;
+  }
+}
