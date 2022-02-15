@@ -10,9 +10,7 @@
   min-height: 300px;
   background-color: $bgColor;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centerFlex(tomato);
 
   h2 {
     text-transform: uppercase;

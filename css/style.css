@@ -1,33 +1,109 @@
-@import 'reset.css';
-@import 'common.css';
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
-/* css variables */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
-/* hero  */
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    padding: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
 .hero {
   min-height: 300px;
   background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: tomato;
 }
+
 .hero h2 {
   text-transform: uppercase;
   font-weight: normal;
-  color: dodgerblue;
+  color: white;
 }
+
 .hero p {
-  color: dodgerblue;
+  color: white;
 }
-/* main */
+
+.hero button {
+  font-size: 25px;
+}
+
 .main {
   min-height: 400px;
   border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: black;
 }
+
 .main h2 {
   text-transform: uppercase;
   font-weight: normal;
-  color: dodgerblue;
+  color: white;
   font-size: 2rem;
 }
+
 .main p {
-  color: dodgerblue;
+  color: white;
   font-style: italic;
 }
+/*# sourceMappingURL=style.css.map */
